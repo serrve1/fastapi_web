@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+	<title>GeeksforGeeks Registration</title> 
+	<link rel="stylesheet"
+		href="style.css"> 
+</head> 
+
+<body> 
+	<div class="main"> 
+		<h1>UBION World</h1> 
+		<h3>Enter your register information</h3> 
+		<form action="/register" method="post"> 
+			
+            <label for="first"> 
+				Username: 
+			</label> 
+			<input type="text"
+				id="first"
+				name="username"
+				placeholder="Enter your Username" required> 
+            
+            <label for="first"> 
+				email: 
+			</label> 
+			<input type="text"
+				id="first"
+				name="email"
+				placeholder="Enter your email" required> 
+
+            <label for="first"> 
+                phone: 
+            </label> 
+            <input type="text"
+                id="first"
+                name="phone"
+                placeholder="Enter your phone number" required> 
+
+
+			<label for="password"> 
+				Password: 
+			</label> 
+			<input type="password"
+				id="password"
+				name="password"
+				placeholder="Enter your Password" required> 
+
+			<div class="wrap"> 
+				<button type="submit"
+						onclick="solve()"> 
+					Submit 
+				</button> 
+			</div> 
+		</form> 
+		<p>회원가입 했으면 로그인을 해
+			<a href="#"
+			style="text-decoration: none;"> 
+				로그인
+			</a> 
+		</p> 
+	</div> 
+</body> 
+
+</html>
